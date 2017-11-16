@@ -7,8 +7,8 @@ package _3isp.bien;
 
 /**
  *
- * @author Administrador
+ * @author User
  */
-public interface EntrenamientoAgua {
-    void aprenderAtaqueAgua();
+public interface EntrenamientoPokemon {
+    void aprenderAtaqueCorte();
 }

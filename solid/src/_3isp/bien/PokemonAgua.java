@@ -9,7 +9,7 @@ package _3isp.bien;
  *
  * @author Administrador
  */
-public class PokemonAgua extends Pokemon implements EntrenamientoAgua {
+public class PokemonAgua extends Pokemon implements EntrenamientoAgua,EntrenamientoPokemon {
 
     @Override
     public void aprenderAtaqueAgua() {

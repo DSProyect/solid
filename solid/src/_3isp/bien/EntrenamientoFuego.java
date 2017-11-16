@@ -10,6 +10,5 @@ package _3isp.bien;
  * @author Administrador
  */
 public interface EntrenamientoFuego {
-    void aprenderAtaqueFuego();
-    void aprenderAtaqueCorte(); 
+    void aprenderAtaqueFuego(); 
 }

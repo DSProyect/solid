@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _3isp.bien;
+
+package _1ocp.bien;
 
 /**
  *
- * @author Administrador
+ * @author Junior
  */
-public interface EntrenamientoAgua {
-    void aprenderAtaqueAgua();
+public interface ataquePokemon {
+    /*cada tipo de pokemon implementará un ataque específico para el*/
+    public void calcularAtaque();
 }

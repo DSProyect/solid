@@ -9,7 +9,7 @@ package _3isp.bien;
  *
  * @author Administrador
  */
-public class PokemonFuego extends Pokemon implements EntrenamientoFuego {
+public class PokemonFuego extends Pokemon implements EntrenamientoFuego,EntrenamientoPokemon {
 
     @Override
     public void aprenderAtaqueFuego() {
