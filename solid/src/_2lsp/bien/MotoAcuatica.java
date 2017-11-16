@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _2lsp.mal;
+package _2lsp.bien;
+
+import _2lsp.mal.*;
 
 /**
  *
