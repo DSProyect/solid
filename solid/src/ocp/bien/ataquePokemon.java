@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package srp.bien;
+
+package ocp.bien;
 
 /**
  *
- * @author Administrador
+ * @author Junior
  */
-public class AtaquesPokemon {
-    public void curar(Pokemon p){
-        
-        p.setPorcentajeVida(100);
-        
-    }
+public interface ataquePokemon {
+    /*cada tipo de pokemon implementará un ataque específico para el*/
+    public void calcularAtaque();
 }
