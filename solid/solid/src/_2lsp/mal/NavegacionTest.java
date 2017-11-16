@@ -3,14 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _2lsp.bien;
+package _2lsp.mal;
 
-import _2lsp.mal.*;
-
-/**
- *
- * @author Palacios
- */
 public class NavegacionTest {
     
     
@@ -23,7 +17,7 @@ public class NavegacionTest {
 		}
 	}
     public static void main(String[] args) {
-        VehiculoAcuatico moto = new MotoAcuatica();
+        VehiculoAcuatico moto = new Velero();
         navegacion(moto);
     }
 }

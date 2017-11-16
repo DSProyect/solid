@@ -17,13 +17,12 @@ public class NavegacionTest {
     /*
      Si enviamos una moto acuatica y no está encendida, obtendremos una excepción.
     */
-    public static void navegacion(VehiculoAcuatico... vehiculosAcuaticos) {
+    public void navegacion(VehiculoAcuatico... vehiculosAcuaticos) {
 		for (VehiculoAcuatico vehiculo : vehiculosAcuaticos) {
 			vehiculo.navegar();
 		}
 	}
     public static void main(String[] args) {
-        VehiculoAcuatico moto = new MotoAcuatica();
-        navegacion(moto);
+        navegacion(MotoAcuatica);
     }
 }
