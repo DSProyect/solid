@@ -25,12 +25,9 @@ public class MotoAcuatica  implements VehiculoAcuatico{
     */
     @Override
     public void navegar() {
-        if(!estaEncendido()){
-            this.encender();
-            System.out.println("Navegando");
-        }
-        else
-            System.out.println("Navegando");
+        this.encender();
+        System.out.println("Navegando");
+       
     }
     
     public boolean estaEncendido(){
